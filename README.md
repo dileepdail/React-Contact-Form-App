@@ -1,68 +1,36 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## How to Run the App
 
-In the project directory, you can run:
-
-### `yarn start`
-
-Runs the app in the development mode.<br />
+This App is alreday running on Production.
 Open [https://d2gxp6vg87knst.cloudfront.net](https://d2gxp6vg87knst.cloudfront.net) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### How to use the Application?
 
-### `yarn test`
+Step 1.  Register with your username, emailid and password.
+                          or
+        You can choose to register with Facebook or Google details.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Step 2. Enter the verifiaction code to received on your email id.
 
-### `yarn build`
+Step 3. After successfull login, Please enter your Name, Emailid and Message.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Step 4. Your Message will be received on the email you provided(as per requirement).
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Step 5. Don't foeget to log out from our appliaction.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+## Technologies Used:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1. Front End:  HTML, Material-UI, Bootstrap, React, and CSS.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. AWS Technologies: CloudFront, S3, Cognito, IAM, API Gateway, Lambda, SES, DynamoDB, and AWS Amilify.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Note: In order to receive email you need to first verify email on AWS SES as we are running in sanbox environment.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+For more details please refer the Contact-Form-Docs.docx
+https://github.com/dileepdail/contact-form-app/blob/master/Contact-Form-Docs.docx 
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
