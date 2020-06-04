@@ -40,7 +40,7 @@ const ContactUs = () => {
                Email: ${inputs.email}
                Message: ${inputs.message}`);*/
         
-        alert(`Thank you ${inputs.name} for submitting the form`);
+        //alert(`Thank you ${inputs.name} for submitting the form`);
 
         
         const toEmail = inputs.email;
@@ -68,6 +68,8 @@ const ContactUs = () => {
           },
           body: JSON.stringify({ emailid, name, message })
         })
+
+        window.$('#myModal').modal('show');
       }
     const {inputs, handleInputChange, handleSubmit} = useContactUsForm(contactus);
     const classes = useStyles();
@@ -87,7 +89,8 @@ const ContactUs = () => {
               fullWidth
               label="Full Name"
               name="name"
-              autoFocus 
+              autoFocus
+              inputProps={{ minLength: 2, maxLength: 30}} 
               onChange={handleInputChange} value={inputs.name} 
              />
 
