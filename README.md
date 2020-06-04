@@ -17,7 +17,7 @@ Step 3. After successfull login, Please enter your Name, Emailid and Message.
 
 Step 4. Your Message will be received on the email you provided(as per requirement).
 
-Step 5. Don't foeget to log out from our appliaction.
+Step 5. Log out from our appliaction.
 
 
 ## Technologies Used:
