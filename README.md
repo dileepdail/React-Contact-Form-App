@@ -2,9 +2,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## How to Run the App
 
-This App is already running on Production.
-Open [https://d2gxp6vg87knst.cloudfront.net](https://d2gxp6vg87knst.cloudfront.net) to view it in the browser.
-
 ### How to use the Application?
 
 Step 1.  Register with your username, emailid and password.
